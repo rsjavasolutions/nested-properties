@@ -1,0 +1,8 @@
+github:
+  auth:
+    login: ${RANDOM_USER:random_user_tst}
+    password: ${RANDOM_PASSWORD:pass123}
+  template:
+    url: https://github.com/rsjavasolutions/
+    names:
+      audi-english: audi_en
